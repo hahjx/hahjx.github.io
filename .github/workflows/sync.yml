@@ -3,7 +3,7 @@ name: Sync to Gitee
 on:
   push:
     branches:
-         - '**'
+      - '**'
     # 当推送到这两个分支时触发
 
 jobs:
@@ -11,7 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Mirror the GitHub repo to Gitee
-        uses: Yikun/hub-mirror-action@master
+        # uses: Yikun/hub-mirror-action@master
+        uses: hahjx/hub-mirror-action@v1.5
         with:
           # 源端（GitHub）信息
           src: github/hahjx
@@ -20,6 +21,6 @@ jobs:
           # 引用刚才设置的 Secret，非常安全
           dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
           dst_token: ${{ secrets.GITEE_TOKEN }}
-          static_list: "my-note"
+          static_list: 'my-note'
           force_update: true
           debug: true
