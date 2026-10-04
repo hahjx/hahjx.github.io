@@ -1,6 +1,10 @@
+<!-- 这个是一个注释，避免md文档被vitepress当成页面处理 -->
+
 ---
+
 name: blank-skill
 description: TODO: Explain when Codex should use this skill. Include task type, trigger words, expected inputs, and boundaries. Keep this description clear because Codex uses it to decide whether to load the skill.
+
 ---
 
 # Blank Skill
