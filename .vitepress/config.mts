@@ -5,7 +5,7 @@ import { setSideBar } from './utils/genRoute.mts' // 改成自己的路径
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/my-note/',
-  srcExclude: ['**/skill-example/**', '**/SKILL.md'],
+  srcExclude: ['**/skill-example/**'],
   title: '寒江雪的小站',
   description: '孤舟蓑立翁,独钓寒江雪',
   themeConfig: {
