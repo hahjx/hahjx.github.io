@@ -21,6 +21,5 @@
       "onFail": "download"
     }
   },
-  "packageManager": "pnpm@12.9.1",
   "type": "module"
 }
