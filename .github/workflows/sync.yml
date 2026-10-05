@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Mirror the GitHub repo to Gitee
         # uses: Yikun/hub-mirror-action@master
-        uses: hahjx/hub-mirror-action@v1.5
+        uses: hahjx/hub-mirror-action@master
         with:
           # 源端（GitHub）信息
           src: github/hahjx
