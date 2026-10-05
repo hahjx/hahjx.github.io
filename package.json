@@ -1,16 +1,26 @@
 {
-  "name": "my-note-docs",
+  "name": "my-note",
   "version": "1.0.0",
-  "devDependencies": {
-    "@types/node": "^25.0.9",
-    "prettier": "3.8.1",
-    "vitepress": "^1.6.4"
-  },
+  "description": "My personal notes and documentation",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
     "lint": "prettier . --write"
-  }
+  },
+  "keywords": [],
+  "author": "hahjx",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.9.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.9.1",
+  "type": "module"
 }
