@@ -3,7 +3,7 @@ import { setSideBar } from './utils/genRoute.mts'
 
 export default defineConfig({
   base: '/',
-  // srcExclude: ['**/skill-example/**', '**/doc-code/java/**', '**/SKILL.md'],
+  srcExclude: ['**/SKILL.md'],
   title: '寒江雪的小站',
   description: '孤舟蓑立翁,独钓寒江雪',
 
