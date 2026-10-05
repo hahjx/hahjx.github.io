@@ -1,11 +1,13 @@
 {
+  "name": "my-note-docs",
+  "version": "1.0.0",
   "devDependencies": {
     "@types/node": "^25.0.9",
     "prettier": "3.8.1",
     "vitepress": "^1.6.4"
   },
   "scripts": {
-    "dev":"vitepress dev",
+    "dev": "vitepress dev",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview",
