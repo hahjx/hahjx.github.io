@@ -112,6 +112,7 @@ public class User {
    2. [mysql版本一般指定8的版本](安装mysql.md)
    3. mysql-connector-j 不用手动指定 <version> 标签，直接让 Spring Boot Parent 帮忙确定版本
    4. 在pom.xml里面添加依赖
+
    ```java
    <dependency>
        <groupId>mysql</groupId>
@@ -245,9 +246,9 @@ https://www.bilibili.com/video/BV1UE41147KC/?buvid=YB4617B691281BB0417C84E8DE60E
 
 1. 添加GAV
    `        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aspectj</artifactId>
-        </dependency>`
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-aspectj</artifactId>
+</dependency>`
 2. 编写类
 
 ```java
@@ -263,7 +264,7 @@ https://www.bilibili.com/video/BV1UE41147KC/?buvid=YB4617B691281BB0417C84E8DE60E
 
 ## 整合redis
 
-## springboot的docker部署
+### springboot的docker部署
 
 1. 先把jar包打出来，命令是
    ```bash
